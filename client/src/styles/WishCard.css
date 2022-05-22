@@ -1,0 +1,44 @@
+.card-controls{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 10px,5px,7px,black;
+    background-color: white;
+    transition: 0.9s;
+    margin-top: 100px;
+}
+
+.image-div{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-100px);
+    z-index: 1;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 10px,5px,7px,black;
+}
+
+.content{
+    text-align: center;
+    transform: translateY(-300px);
+    color: palevioletred;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card-controls:hover{
+    height: 250px;
+}
+
+.card-controls:hover >.content{
+    opacity:1;
+    transform: translateY(-70px);
+}
+

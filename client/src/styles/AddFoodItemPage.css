@@ -1,0 +1,30 @@
+:root{
+    --primary:rgba(98, 185, 248, 0.6);
+    --secondary:hsl(197, 100%, 5%,0.7);
+}
+.body-controls {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background: linear-gradient(135deg,var(--primary),var(--secondary)),
+  url("https://images.pexels.com/photos/3761662/pexels-photo-3761662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center /cover
+}
+.form-controls {
+ height: 50vh;
+}
+
+.input-controls input {
+  width: 600px;
+  border: 3px solid rgba(178, 225, 228,0.8);
+  box-shadow: 2px 2px 7px rgba(230, 239, 239,0.5);
+  border-radius: 10px;
+}
+
+.input-controls label {
+  font-weight: bolder;
+  font-size: 25px;
+  color: white;
+}
